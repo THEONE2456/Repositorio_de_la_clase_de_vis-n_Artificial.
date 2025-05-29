@@ -14,13 +14,8 @@ Pasaje = int(input("¿cuanto_gastas_en_transporte?"))
 #Ø = "¿cuanto_gastas_en_transporte?"
 #print("Ø")
 
-gastosTotales = Renta + Comida + Pasaje
-restante = Sueldo - gastosTotales
+Gastos_Totales = Renta + Comida + Pasaje
+Restante = Sueldo - GastosTotales
 
 print(f"Hola, {Nombre}, tus gastos totales fueron {gastosTotales} y te queda {restante}")
-
-
-#Dinero_total = int(input("X"))
-#Dinero_restante = int(input("X-Y-Z-W-Ø"))
-#print()
  
